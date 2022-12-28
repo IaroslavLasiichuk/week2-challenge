@@ -1,77 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@301,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/be798774c5.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
 </head>
+
 <body>
-    <header>
-        <h1>Portfolio</h1>
+
+    <!-- Header -->
+    <header class=" header">
+        <h1>ILasiichuk</h1>
         <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#resume">Resume</a></li>
+            <ul class="navbar">
+                <li><a class="nav-link" href="#about">About Me</a></li>
+                <li><a class="nav-link" href="#work">Work</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- About -->
     <main>
-        <section id="about" class="flex about">
-            <img src="./assets/img/guillaume-issaly-IWKh3h22t68-unsplash.jpg" alt="">
-            <h2>Welcom to my personal website!!!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, consectetur soluta. Neque unde, quod ab quaerat accusamus, animi, reprehenderit voluptatem cumque quasi eligendi deleniti ad velit eum porro. Iusto minus dolorum nulla tenetur, culpa voluptate eaque dolorem unde nobis omnis, quam atque distinctio repellat odio debitis, sed laboriosam quasi doloribus!</p>
-        </section>
-        <section class="flex">
-        <section class="flex-row">
-         <article class="flex-item">
-            <h3>React/Javascript/CSS</h3>
-            <p>Landing page</p>
-            <img src="./assets/img/boitumelo-phetla-zY3mjsIvg0U-unsplash.jpg" alt="">
-         </article>
-        </section>
-    <section class="flex-column">
-        <article class="flex-item">
-            <h3>Node.js</h3>
-            <p>Send emails with Node.JS</p>
-            <img src="./assets/img/pramod-tiwari-E79YsqYvGkY-unsplash.jpg" alt="">
-        </article>
-        <article class="flex-item">
-            <h3>Javascript</h3>
-            <p>Calculator</p>
-            <img src="./assets/img/pramod-tiwari-GMlhHgJCloQ-unsplash.jpg" alt="">
-        </article>
-        <article class="flex-item">
-            <p>HTML/CSS</p>
-            <img src="./assets/img/pramod-tiwari-fSk9lFhL1M4-unsplash.jpg" alt="">
-        </article>
-        <article class="flex-item">
-            <p>Personal Project Management Tool</p>
-            <img src="./assets/img/siamak-QYvpHmW2eos-unsplash.jpg" alt="">
-        </article>
-    </section>
-</section>
+        <section id="about" class="about">
+            <article class="hero">
+                <h2>Hi! I am Iaroslav Lasiichuk</h2>
+                <p class="text-primary">Hi there! I'm Front-end web Developer!!!</p>
+                <a href="#contact" class="button">Contact Me</a>
+            </article>
     </main>
-    <form action="">
-        <label for="name">Name</label>
-        <input type="text">
-        <label for="last">Last Name</label>
-        <input type="text">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-        <button>Send</button>
-    </form>
-   
- <footer class="footer">
-    <address>
-        <a href="linkedin.com">Linkedin</a>
-        <a href="github.com">GitHub</a>
-        <a href="twitter.com">Twitter</a>
-    </address>
-    <h5>Made by Iaroslav Lasiichuk</h5>
-    <p>&copy; 2022 Iaroslav Lasiichuk Inc</p>
- </footer>
+
+    <!-- Projects -->
+    <section id="work" class="wrapper">
+
+        <section class="flex-row">
+            <article class="flex-row project">
+                <article class="content">
+                    <h3>Calculator</h3>
+                    <p class="text-secondary">React/Javascript/CSS. How To Build A Simple Calculator Application With
+                        React.JS</p>
+                </article>
+                <a target="_blank" href="https://github.com/IaroslavLasiichuk/week2-challenge"><img class="image"
+                        src="./assets/img/react-logo.svg" alt="Logo react"></a>
+            </article>
+        </section>
+
+        <section class="flex-row container">
+
+            <article class="flex-column item">
+                <h3>Surf Report</h3>
+                <p class="text-secondary">MERN Stack</p>
+                <a target="_blank" href="https://github.com/IaroslavLasiichuk/week2-challenge"> <img
+                        src="./assets/img/mern_logo.png" alt="MERN logo"></a>
+            </article>
+
+            <article class="flex-column item">
+                <h3>Send emails with Node.JS</h3>
+                <p class="text-secondary">Node.js </p>
+                <a target="_blank" href="https://github.com/IaroslavLasiichuk/week2-challenge"><img
+                        src="./assets/img/nodejs.jpeg" alt="NODE logo"></a>
+            </article>
+
+            <article class="flex-column item">
+                <h3>HTML/CSS</h3>
+                <p>HTML/CSS</p>
+                <a target="_blank" href="https://github.com/IaroslavLasiichuk/week2-challenge"><img
+                        src="./assets/img/html_css.png" alt="HTML and CSS logos"></a>
+            </article>
+
+            <article class="flex-column item">
+                <h3>Javascript Clock</h3>
+                <p>Javascript</p>
+                <a target="_blank" href="https://github.com/IaroslavLasiichuk/week2-challenge"><img
+                        src="./assets/img/js.png" alt="Javascript logo"></a>
+            </article>
+
+            <article class="flex-column item">
+                <h3>Content Management System</h3>
+                <p>MongoDB</p>
+                <a target="_blank" href="https://github.com/IaroslavLasiichuk/week2-challenge"> <img
+                        src="./assets/img/mongodb_log0.jpeg" alt="MongoDB logo"></a>
+            </article>
+
+            <article class="flex-column item">
+                <h3>User Management System</h3>
+                <p>Express</p>
+                <a target="_blank" href="https://github.com/IaroslavLasiichuk/week2-challenge"> <img
+                        src="./assets/img/express_logo.png" alt="Express logo"></a>
+            </article>
+
+        </section>
+    </section>
+
+    <!-- Form -->
+    <section id="contact" class="form">
+        <form action="/" class="flex-column contact">
+            <h3>Contact me</h3>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter your name">
+            <label for="last">Last Name</label>
+            <input type="text" placeholder="Enter your last name">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <button class="button">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="flex-column footer">
+        <address>
+            <a href="linkedin.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="github.com"><i class="fa-brands fa-github"></i></a>
+            <a href="twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        </address>
+        <h5>Made by Iaroslav Lasiichuk</h5>
+        <p>&copy; 2023 Iaroslav Lasiichuk Inc</p>
+    </footer>
 </body>
+
 </html>
