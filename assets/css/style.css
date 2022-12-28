@@ -1,0 +1,205 @@
+:root {
+    --primary-color: #fefefe;
+    --background:#1e1e1e;
+    --secondary-color:#2b2d2e;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Satoshi', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--primary-color);
+    padding: 10px 20px;
+    background:var(--background);
+    position: sticky;
+    top: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+a[class~="nav-link"]:hover {
+    border-bottom: 3px solid white;
+   }
+
+h1{
+   font-size: 40px;
+}
+
+/* About */
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../img/andreas-forsberg-rMdOHpO3h5E-unsplash.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+
+.text-primary{
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.button{
+    width: 140px;
+    height: 40px;
+    color: var(--primary-color);
+    background-color: var(--background);
+    border: none;
+}
+.button:hover{
+   transform: scale(1.1);
+}
+
+/* Projects */
+.wrapper{
+    background-color: rgba(189, 192, 195, 0.798);
+    padding-bottom: 30px;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* First application */
+.project{
+    justify-content: space-evenly;
+    width: 90%;
+    box-shadow: 20px 5px 15px#272b28;
+    border-radius: 5px;
+    margin: 50px;
+    background-color: var(--primary-color);
+}
+
+.content{
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.text-secondary{
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+a{
+    color: var(--primary-color);
+    padding: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+a[href$=".com"] {
+    color: var(--secondary-color);
+    font-size: 20px;
+  }
+
+  .image{
+    width: 600px;
+    height: 400px;
+}
+
+.image:hover{
+    transform: scale(1.03);
+}
+
+.container{
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.item{
+    box-shadow: 20px 5px 15px#272b28;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin: 10px;
+    background-color: var(--primary-color);
+}
+
+.item img {
+    width: 350px;
+    height: 250px;
+}
+.item:hover {
+transform: scale(1.1);
+}
+
+/* Contact form */
+.contact{
+    margin-top: 50px;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+label{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+.footer{
+    padding: 10px;
+    margin-top: 40px;
+}
+.fa-brands{
+    padding-bottom: 10px;
+}
+.fa-brands:hover {
+  transform: scale(1.4);
+}
