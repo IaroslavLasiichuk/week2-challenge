@@ -13,4 +13,4 @@ In the "Work" section, you will find a list of titled images representing [Devel
 This portfolio is designed to be responsive, meaning it will adapt to the size of your viewport and device. Whether you are viewing the site on a large desktop screen or a small mobile device, you should have a seamless experience.
 
 ## Contact
-If you would like to contact Iaroslav Lasiichuk for potential employment or any other inquiries, please use the contact information provided in the "Contact" section of the portfolio. We look forward to hearing from you.
+If you would like to contact Iaroslav Lasiichuk for potential employment or any other inquiries, please use the contact information provided in the "Contact" section of the portfolio or click [here](https://github.com/IaroslavLasiichuk/week1-challenge/blob/main/index.html). We look forward to hearing from you.
